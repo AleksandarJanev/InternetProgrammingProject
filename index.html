@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+    <!--Navigation bar-->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -20,8 +22,8 @@
               <span class="icon-bar"></span>
             </button>
 
-            
-            <a class="navbar-brand" href="index.html">ОПТИКА</a>
+            <img src="logo.png">
+            <a class="navbar-brand" href="index.html"></a>
           </div>
 
           <div class="collapse navbar-collapse" id="myNavbar">
@@ -29,14 +31,14 @@
               <li><a href="index.html">HOME</a></li>
 
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="products.html">PRODUCTS
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">PRODUCTS
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">VIEW ALL</a></li>
-                    <li><a href="#">SUNGLASSES</a></li>
-                    <li><a href="#">EYEGLASSES</a></li>
-                    <li><a href="#">CONTACT LENSES</a></li>
+                    <li><a href="products.html">VIEW ALL</a></li>
+                    <li><a href="sunglasses.html">SUNGLASSES</a></li>
+                    <li><a href="eyeglasses.html">EYEGLASSES</a></li>
+                    <li><a href="lenses.html">CONTACT LENSES</a></li>
                 </ul>
               </li>
 
@@ -45,22 +47,25 @@
              
 
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="products.html">MORE
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">ABOUT US</a></li>
+                  <li><a href="#">CONTACT</a></li>
                 </ul>
               </li>
-
             </ul>
+
           </div>
         </div>
       </nav>
 
 
+
+      <!--Carousel part of page-->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -115,10 +120,40 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <br>
 
+      <!--Products section-->
+      <div>
+        <div class="container">
+
+            <div class="col-sm-4">
+              <p class="text-center"><strong>SUNGLASSES</strong></p><br>
+                <img src="sun_products.jpg" alt="Sunglass">
+              </a>              
+            </div>
+    
+            <div class="col-sm-4">
+              <p class="text-center"><strong>EYEGLASSES</strong></p><br>
+                <img src="eye_product.jpg" alt="Eyeglasses">
+              </a>
+            </div>
+    
+            <div class="col-sm-4">
+              <p class="text-center"><strong>CONTACT LENSES</strong></p><br>
+                <img src="lenses_products.jpeg" alt="Contact lenses">
+              </a>
+            </div>
+
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <!--Hot deals section-->
       <div class="container text-center">
-        <h3>ОПТИКА ГОСТИВАР</h3>
-        <p>Hot deals for the month</p>
+        
+        <h2><em>Hot deals for the month</em></h2>
+        <br>
         <br>
       </div>
 
@@ -158,6 +193,43 @@
       </div>
 
 
+        <div class="row">
+        <div class="col-sm-4">
+          <p class="text-center"><strong>PERSOL 9649 9656</strong></p><br>
+          <a href="#deal4" data-toggle="collapse">
+            <img src="PERSOL-9649s-9656.jpeg" class="img-circle hotdeal" alt="Hot Deal">
+          </a>
+          <div id="deal4" class="collapse">
+            <h1 style="color: rgb(221, 42, 18);">15%</h1>
+            <h1>8600 ден.</h1>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <p class="text-center"><strong>DOLCE&GABBANA 3271 3117</strong></p><br>
+          <a href="#deal5" data-toggle="collapse">
+            <img src="dolcegabbana-dg-3271-3117.jpeg" class="img-circle hotdeal" alt="Hot Deal">
+          </a>
+          <div id="deal5" class="collapse">
+            <h1 style="color: rgb(221, 42, 18);">40%</h1>
+            <h1>3700 ден.</h1>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <p class="text-center"><strong>ESPRIT ET17923 538</strong></p><br>
+          <a href="#deal6" data-toggle="collapse">
+            <img src="ESPRIT-et17923-color-538.jpeg" class="img-circle hotdeal" alt="Hot Deal">
+          </a>
+          <div id="deal6" class="collapse">
+            <h1 style="color: rgb(221, 42, 18);">20%</h1>
+            <h1>4800 ден.</h1>
+          </div>
+        </div>
+      </div>
+      <br>
+      <!--Regiser or login section-->
+      
 
 
       <!--Contact part of page-->

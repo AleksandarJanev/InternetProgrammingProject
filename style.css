@@ -1,18 +1,18 @@
 .navbar {
     margin-bottom: 0;
-    background-color: #ffffff;
+    background-color: #fafcff;
     border: 0;
     font-size: 15px !important;
     letter-spacing: 4px;
     opacity: 0.8;
   }
   
-  /* Add a gray color to all navbar links */
+  /* Add black to all navbar links */
   .navbar li a, .navbar .navbar-brand {
     color: #000000 !important;
   }
   
-  /* On hover, the links will turn white */
+  /* On hover, the links will highlight*/
   .navbar-nav li a:hover {
     color: rgb(190, 192, 196) !important;
   }
@@ -46,8 +46,8 @@
 
   .carousel-inner img {
     -webkit-filter: grayscale(90%);
-    filter: grayscale(30%); /* make all photos black and white */
-    width: 100%; /* Set width to 100% */
+    filter: grayscale(30%); 
+    width: 100%; 
     margin: auto;
   }
   
@@ -71,6 +71,7 @@
   .hotdeal {
     border: 5px solid transparent;
     margin-bottom: 25px;
+    margin-left: 30px;
     width: 80%;
     height: 80%;
     opacity: 0.9;
@@ -88,3 +89,5 @@
   textarea {
     resize: none;
   }
+
+  
